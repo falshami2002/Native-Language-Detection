@@ -4,7 +4,6 @@ nltk.download('punkt')
 nltk.download('punkt_tab')
 nltk.download('averaged_perceptron_tagger_eng')
 from nltk import pos_tag
-import pandas as pd
 import re
 
 class TokenizeText:

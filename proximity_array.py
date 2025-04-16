@@ -38,7 +38,7 @@ class Proximity:
                 matrix[i][j] = coOccurrence[tag1][tag2]
 
         # Reshape matrix (height, width, channels)
-        matrix_reshaped = matrix.reshape(matrix.shape[0], matrix.shape[1], 1) 
+        matrix_reshaped = matrix.reshape(matrix.shape[0], matrix.shape[1]) 
 
         matrix_reshaped = np.array(matrix_reshaped)
         return matrix_reshaped
